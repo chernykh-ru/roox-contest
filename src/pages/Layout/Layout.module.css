@@ -1,0 +1,29 @@
+.wrapper {
+  display: grid;
+  max-width: 900px;
+  min-height: 100vh;
+  margin: 0 auto;
+  gap: 0 20px;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: auto 160px minmax(320px, 1200px) auto;
+  grid-template-areas:
+    '. header header .'
+    '. sidebar body .'
+    '. footer footer .';
+}
+
+.header {
+  grid-area: header;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.body {
+  grid-area: body;
+}
+
+.footer {
+  grid-area: footer;
+}

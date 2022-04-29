@@ -1,0 +1,7 @@
+.active {
+  border: 1px solid var(--white);
+}
+
+.button {
+  margin-bottom: 10px;
+}

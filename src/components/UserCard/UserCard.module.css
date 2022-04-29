@@ -1,0 +1,39 @@
+.cardWrapper {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0 20px;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.info p {
+  margin: 0;
+}
+
+.description {
+  display: grid;
+  align-items: flex-end;
+}
+
+.description p {
+  margin: 0;
+}
+
+.link {
+  color: var(--primary);
+}
+
+.link:hover {
+  color: var(--primary-hover);
+  text-decoration: underline;
+}
+
+.label {
+  color: var(--gray-lightnes);
+  font-size: 12px;
+  line-height: 14px;
+}
