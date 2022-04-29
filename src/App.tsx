@@ -11,7 +11,7 @@ function App() {
       <UsersProvider>
         <Routes>
           <Route path='/' element={<UserList />} />
-          <Route path='users' element={<UserList />} />
+          <Route path='/users' element={<UserList />} />
           <Route path='user/:id' element={<UserProfile />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
