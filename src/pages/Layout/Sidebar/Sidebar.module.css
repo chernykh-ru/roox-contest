@@ -23,3 +23,9 @@
 .link {
   align-self: end;
 }
+
+@media screen and (max-width: 768px) {
+  .title {
+    margin-bottom: 20px;
+  }
+}

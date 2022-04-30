@@ -5,3 +5,15 @@
 .button {
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .sort {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .button {
+    margin-bottom: 20px;
+  }
+}
