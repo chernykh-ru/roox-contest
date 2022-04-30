@@ -77,6 +77,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 10px;
 }
 
 .disabled {
@@ -87,4 +88,15 @@
 .disabled:hover {
   background-color: var(--gray-dark);
   cursor: not-allowed;
+}
+
+@media screen and (max-width: 768px) {
+  .footerWrapper {
+    margin-right: 24px;
+  }
+
+  .input {
+    width: 300px;
+    max-width: 300px;
+  }
 }

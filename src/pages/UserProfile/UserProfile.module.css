@@ -94,4 +94,8 @@
   .wrapper {
     padding: 20px;
   }
+
+  .header button {
+    margin-right: 24px;
+  }
 }
