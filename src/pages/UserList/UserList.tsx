@@ -20,7 +20,12 @@ const UserList: FC = () => {
   }, [dispatch])
 
   if (!users || users.length < 1) {
-    return <Spinner />
+    return (
+      <div className={styles.wrapper}>
+        <h1 className={styles.title}>Список пользователей</h1>
+        <Spinner />
+      </div>
+    )
   }
 
   return (
