@@ -19,7 +19,7 @@ const UserList: FC = () => {
     http()
   }, [dispatch])
 
-  if (!users) {
+  if (!users || users.length < 1) {
     return <Spinner />
   }
 
